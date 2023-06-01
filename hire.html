@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>WorkMan - Главная страница</title>
+</head>
+<body>
+    <header class="horizontal-padding">
+        <a href="./index.html">
+            <img src="./images/Logo&Icons/Logo-header.png" alt="header-logo">
+        </a>
+        <div class="header__burger">
+            <span></span>
+        </div>
+        <div class="header-navigation">
+
+            <a href="./index.html">Главная</a>
+            <a href="./about.html">О нас</a>
+            <a href="#">Вакансии</a>
+            <a href="#">Персонал</a>
+    
+        </div>
+        <div class="header-sign_buttons">
+
+            <div class="button-block">
+                <div class="blue-button">
+                    <a href="./signup.html">Регистрация</a>
+                </div>
+            </div>
+
+            <div class="button-block">
+                <div class="header-signin_button">
+                    <a href="#" id="open_pop_up">Вход</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="pop_up" id="pop_up">
+            <div class="pop_up_content">
+                <div class="pop_up_body" id="pop_up_body">
+                    
+                    <form class="general-form" action="">
+
+                        <h4 class="pop-up-title">Авторизация</h4>
+
+                        <div class="general-form_item">
+                            <label class="general-label">
+                                <span>E-mail</span>
+                            </label>
+                            <input class="general-form_input" type="email" placeholder="your@email.com">
+                        </div>
+
+                        <div class="general-form_item">
+                            <label class="general-label">
+                                <span>Пароль</span>
+                            </label>
+                            <input class="general-form_input" type="password" placeholder="Пароль">
+                        </div>
+
+
+                        <div class="blue-button_sidelines">
+                            <div class="button-wrapper">
+                                <button class="blue-button">Войти</button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slider-container">
+                <div class="slide active-slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="indicator-container">
+                  <div class="indicator active-indicator"></div>
+                  <div class="indicator"></div>
+                  <div class="indicator"></div>
+                </div>
+            </div>    
+        </div>
+        <div class="vacancies horizontal-padding">
+            <div class="vacancies__head">
+                <h3>Вакансии</h3>
+                <div class="vacancies__head__search">
+                    <img src="./images/Logo&Icons/search_icon.png" alt="search_icon">
+                    <input placeholder="Поиск.." type="text">
+                </div>
+                <div class="button-block vacancies__create-button">
+                    <div class="blue-button">
+                        <a href="./hire.html">Создать вакансию</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vacancy">
+                <div class="vacancy__block">
+                    <div class="vacancy__block__head">
+                        <div class="vacancy__block__head__title">
+                            <a href="#">
+                                Дизайнер верстальщик
+                            </a>
+                            <p>
+                                Вакансия
+                            </p>
+                        </div>
+                        <div class="vacancy__block__head__price">
+                            30 000 - 50 000
+                        </div>
+                    </div>
+                    <div class="vacancy__block__info">
+                        <p>ООО “IT-ВЕК”</p>
+                        <p>г. Казань. Советский район.</p>
+                        <p>
+                            <img src="./images/Logo&Icons/case_icon.png" alt="case_icon">
+                            Опыт работы: от 1 года
+                        </p>
+                    </div>
+                    <div class="vacancy__block__text">
+                        Разработка дизайна десктопной и мобильной версий веб-сайтов по ТЗ и пожеланию заказчика. Верстка разработанных макетов и работа с 
+                        WordPress.
+                        Умение работать с Figma, Photoshop или Illustrator. Знание HTML/CSS, JS, WordPress. Умение качественно верстать и делать адаптив.Наличие
+                        реальных проектов. 
+                    </div>
+                    <div class="vacancy__block__button">
+                        <div class="vacancy__blue-button_sidelines">
+                            <div class="button-wrapper">
+                                <button class="blue-button vacancy__blue-button_bg">
+                                    <a href="">
+                                        Подробнее
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vacancies__show-more">
+                <div class="button-block vacancy__create-button">
+                    <div class="home-button_animation">
+                        <div class="blue-button">
+                            <a href="#" class="home-button_link">Показать ещё</a>
+                            <a href="#" class="arrow-right_blue"><img src="/images/Logo&Icons/arrow_down-icon.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="vacancies horizontal-padding">
+            <div class="vacancies__head">
+                <h3>Резюме</h3>
+                <div class="vacancies__head__search">
+                    <img src="./images/Logo&Icons/search_icon.png" alt="search_icon">
+                    <input placeholder="Поиск.." type="text">
+                </div>
+                <div class="button-block vacancies__create-button">
+                    <div class="blue-button">
+                        <a href="./create.html">Создать резюме</a>
+                    </div>
+                </div>
+            </div>
+            <div class="vacancy">
+                <div class="vacancy__block">
+                    <div class="vacancy__block__head">
+                        <div class="vacancy__block__head__title">
+                            <a href="#">
+                                WordPress верстальщик
+                            </a>
+                            <p>
+                                Резюме
+                            </p>
+                        </div>
+                        <div class="vacancy__block__head__price">
+                           от 40 000
+                        </div>
+                    </div>
+                    <div class="vacancy__block__info">
+                        <p>Булат Нигматуллин</p>
+                        <p>г. Казань. Советский район.</p>
+                        <p>
+                            <img src="./images/Logo&Icons/case_icon.png" alt="case_icon">
+                            Опыт работы: 1 год
+                        </p>
+                    </div>
+                    <div class="vacancy__block__text">
+                        Разработка дизайна десктопной и мобильной версий веб-сайтов по ТЗ и пожеланию заказчика. Верстка разработанных макетов и работа с 
+                        WordPress.
+                        Умение работать с Figma, Photoshop или Illustrator. Знание HTML/CSS, JS, WordPress. Умение качественно верстать и делать адаптив.Наличие
+                        реальных проектов. 
+                    </div>
+                    <div class="vacancy__block__button">
+                        <div class="vacancy__blue-button_sidelines">
+                            <div class="button-wrapper">
+                                <button class="blue-button vacancy__blue-button_bg">
+                                    <a href="./vacancy.html">
+                                        Подробнее
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vacancies__show-more">
+                <div class="button-block vacancy__create-button">
+                    <div class="home-button_animation">
+                        <div class="blue-button">
+                            <a href="#" class="home-button_link">Показать ещё</a>
+                            <a href="#" class="arrow-right_blue"><img src="/images/Logo&Icons/arrow_down-icon.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>                
+    </main>
+    <footer>
+        <div class="footer-content horizontal-padding">
+            <h2>
+                Стань лучшим в своем деле.
+            </h2>
+            <div class="footer-main">
+                <div class="footer-main_block">
+                    <a href="" class="footer-block_line">
+                        <div class="footer-line_title">
+                            <img src="images/Logo&Icons/inst_logo.svg" alt="inst_logo">
+                            Instagram
+                        </div>
+                        <img src="images/Logo&Icons/arrow-right_black.svg" alt="arrow-right_black">
+                    </a>
+                    <div class="footer-block_border"></div>
+                    <a href=""class="footer-block_line">
+                        <div class="footer-line_title">
+                            <img src="images/Logo&Icons/tg_logo.svg" alt="tg_logo">
+                            Telegram
+                        </div>
+                        <img src="images/Logo&Icons/arrow-right_black.svg" alt="arrow-right_black">
+                    </a>
+                </div>
+                <div class="footer-main_block">
+                    <a href="" class="footer-block_line">
+                        <div class="footer-line_title">
+                            <img src="images/Logo&Icons/vk_logo.svg" alt="vk_logo">
+                            Вконтакте
+                        </div>
+                        <img src="images/Logo&Icons/arrow-right_black.svg" alt="arrow-right_black">
+                    </a>
+                    <div class="footer-block_border"></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="#">
+                    <img src="images/Logo&Icons/Logo-header.png" alt="Logo">
+                </a>
+                <div class="footer-bottom_nav">
+                    <a href="#">Главная</a>
+                    <a href="#">Вход</a>
+                    <a href="#">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="hire.js" defer></script>
+</body>
+</html>

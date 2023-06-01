@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>WorkMan - Главная страница</title>
+</head>
+<body>
+    <header class="horizontal-padding">
+        <a href="./index.html">
+            <img src="./images/Logo&Icons/Logo-header.png" alt="header-logo">
+        </a>
+        <div class="header__burger">
+            <span></span>
+        </div>
+        <div class="header-navigation">
+
+            <a href="./index.html">Главная</a>
+            <a href="./about.html">О нас</a>
+            <a href="./hire.html">Вакансии</a>
+            <a href="#">Персонал</a>
+    
+        </div>
+        <div class="header-sign_buttons">
+
+            <div class="button-block">
+                <div class="blue-button">
+                    <a href="./signup.html">Регистрация</a>
+                </div>
+            </div>
+
+            <div class="button-block">
+                <div class="header-signin_button">
+                    <a href="#" id="open_pop_up">Вход</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="pop_up" id="pop_up">
+            <div class="pop_up_content">
+                <div class="pop_up_body" id="pop_up_body">
+                    
+                    <form class="general-form" action="">
+
+                        <h4 class="pop-up-title">Авторизация</h4>
+
+                        <div class="general-form_item">
+                            <label class="general-label">
+                                <span>E-mail</span>
+                            </label>
+                            <input class="general-form_input" type="email" placeholder="your@email.com">
+                        </div>
+
+                        <div class="general-form_item">
+                            <label class="general-label">
+                                <span>Пароль</span>
+                            </label>
+                            <input class="general-form_input" type="password" placeholder="Пароль">
+                        </div>
+
+
+                        <div class="blue-button_sidelines">
+                            <div class="button-wrapper">
+                                <button class="blue-button">Войти</button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="profile horizontal-padding">
+            <div class="profile__title">
+                <h3>
+                    Личный кабинет
+                </h3>
+            </div>
+            <div class="profile__block">
+                <div class="profile__block__title">
+                    Данные пользователя:
+                </div>
+                <div class="profile__block__section">
+                    <p>
+                        Имя
+                    </p>
+                    <h4>
+                        Имя Фамилия
+                    </h4>
+                </div>
+                <div class="profile__block__section">
+                    <p>
+                        E-mail
+                    </p>
+                    <h4>
+                        name@email.com
+                    </h4>
+                </div>
+                <div class="profile__block__section">
+                    <p>
+                        Город
+                    </p>
+                    <h4>
+                        Казань
+                    </h4>
+                </div>
+                <div class="profile__block__exit-button">
+                    <div class="blue-button_sidelines">
+                        <div class="button-wrapper">
+                            <button class="blue-button">Выход</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content horizontal-padding">
+            <h2>
+                Стань лучшим в своем деле.
+            </h2>
+            <div class="footer-main">
+                <div class="footer-main_block">
+                    <a href="" class="footer-block_line">
+                        <div class="footer-line_title">
+                            <img src="images/Logo&Icons/inst_logo.svg" alt="inst_logo">
+                            Instagram
+                        </div>
+                        <img src="images/Logo&Icons/arrow-right_black.svg" alt="arrow-right_black">
+                    </a>
+                    <div class="footer-block_border"></div>
+                    <a href=""class="footer-block_line">
+                        <div class="footer-line_title">
+                            <img src="images/Logo&Icons/tg_logo.svg" alt="tg_logo">
+                            Telegram
+                        </div>
+                        <img src="images/Logo&Icons/arrow-right_black.svg" alt="arrow-right_black">
+                    </a>
+                </div>
+                <div class="footer-main_block">
+                    <a href="" class="footer-block_line">
+                        <div class="footer-line_title">
+                            <img src="images/Logo&Icons/vk_logo.svg" alt="vk_logo">
+                            Вконтакте
+                        </div>
+                        <img src="images/Logo&Icons/arrow-right_black.svg" alt="arrow-right_black">
+                    </a>
+                    <div class="footer-block_border"></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="#">
+                    <img src="images/Logo&Icons/Logo-header.png" alt="Logo">
+                </a>
+                <div class="footer-bottom_nav">
+                    <a href="#">Главная</a>
+                    <a href="#">Вход</a>
+                    <a href="#">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="profile.js" defer></script>
+</body>
+</html>

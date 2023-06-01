@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../FUN WEB"
+		},
+		{
+			"path": "../Cyber Tiger"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "workmanVS"
+	}
+}
