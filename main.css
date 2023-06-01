@@ -739,7 +739,7 @@ header {
     position: absolute;
     color: #fff;
 }.info-block_numbers_absolute p{
-    width: 10vw;
+    width: 8vw;
 }.info-block_numbers_absolute h1{
     display: flex;
     justify-content: center;
